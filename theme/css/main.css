@@ -31,14 +31,14 @@ h5 {font-size: 1.125em}
 h6 {font-size: 1em}
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
-	line-height: 1.1;
-	margin: .8em 0;
-        font-family: 'open_sanscondensed_light', Arial, sans-serif;
+        font-weight: 700;
+        line-height: 1.1;
+        margin: .8em 0;
+        font-family: "Yanone Kaffeesatz", Helvetica Neue , Helvetica, Arial, sans-serif;
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
-	
+
 hr { border: 2px solid #666; }
 
 /* Anchors */
@@ -46,11 +46,11 @@ a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
 h1 a, h2 a {
     text-decoration: none !important;
-	text-shadow: none;
+        text-shadow: none;
     transition: text-shadow .5s;
 }
 h1 a:hover, h2 a:hover {
-	text-shadow: 0 0 1px #000;
+        text-shadow: 0 0 1px #000;
     transition: text-shadow .5s;
 }
 
@@ -65,11 +65,11 @@ nav a:hover {
 }
 
 a:link, a:visited {
-	color: #333;
-	padding: 0 1px;
-	text-decoration: underline;
+        color: #333;
+        padding: 0 1px;
+        text-decoration: underline;
 }
-	
+
 /* Paragraphs */
 div.line-block,
 p { margin-top: 1em;
@@ -80,16 +80,19 @@ em, i {font-style: italic;}
 
 /* Lists */
 ul {
-	list-style: outside disc;
-	margin: 0em 0 0 1.5em;
+        list-style: none;
+        margin: 0em 0 0 1.5em;
 }
 
 ol {
-	list-style: outside decimal;
-	margin: 0em 0 0 1.5em;
+        list-style: outside decimal;
+        margin: 0em 0 0 1.5em;
 }
 
-li { margin-top: 0.5em;}
+
+li {
+    margin-top: 0.5em;
+}
 
 .post-info {
     margin-top: 30px;
@@ -140,7 +143,7 @@ div.note {
 
 /* Tables */
 table {margin: .5em auto 1.5em auto; width: 98%;}
-	
+
 /* Thead */
 thead th {padding: .5em .4em; text-align: left;}
 thead td {}
@@ -155,11 +158,11 @@ tbody .alt th {}
 /* Tfoot */
 tfoot th {}
 tfoot td {}
-	
+
 /* HTML5 tags */
 header, section, footer,
 aside, nav, article, figure {
-	display: block;
+        display: block;
 }
 
 /***** Layout *****/
@@ -169,7 +172,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 
 /* Header */
 #banner {
-	padding: 1.5em 0 .5em;
+    padding: 1.5em 0 .5em;
     text-align: center;
     border-top: 0px solid #CCCCCC;
 }
@@ -247,32 +250,32 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 
 /* Portfolio */
 .portfolio-item {
-	overflow: auto;
+        overflow: auto;
     margin-bottom: 30px;
 }
 
 .portfolio-item img {
-	margin: 0 0 10px !important;
+        margin: 0 0 10px !important;
 }
 
 .portfolio-item h2 {
-	display: inline-block;
-	margin: 0;
+        display: inline-block;
+        margin: 0;
 }
 
 .portfolio-item p {
-	margin: 0 0 5px;
+        margin: 0 0 5px;
 }
 
 .portfolio-item .tag {
-	padding: 0 5px;
-	margin: 0 2px 5px 0;
-	display: inline-block;
-	border-radius: 5px;
-	background: #6ACEEB;
+        padding: 0 5px;
+        margin: 0 2px 5px 0;
+        display: inline-block;
+        border-radius: 5px;
+        background: #6ACEEB;
         color: #FFFBED;
-	font-style: italic;
-	font-size: .785em;
+        font-style: italic;
+        font-size: .785em;
 }
 
 /* Body */
@@ -282,13 +285,13 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
     position: relative;
 }
 #content {
-	margin-bottom: 2em;
-	overflow: hidden;
-	width: 800px;
+        margin-bottom: 2em;
+        overflow: hidden;
+        width: 800px;
         max-width: 100%;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
 }
 .container {
     padding: 1.5em;
@@ -307,10 +310,10 @@ font-size: .875em;
 
 /* Footer */
 .paginator {
-	text-align: center;
+        text-align: center;
 }
 .paginator a {
-	font-size: 1.25em;
+        font-size: 1.25em;
 }
 .clear-footer {
     height: 130px;
@@ -345,7 +348,7 @@ font-size: .875em;
     padding-top: 15px;
 }
 .social a {
-	display: inline-block;
+        display: inline-block;
     color: #EDEDED;
 }
 .social .dat-icon {
@@ -354,9 +357,9 @@ font-size: .875em;
 
 /* Blog */
 .hentry {
-	display: block;
-	clear: both;
-	border-bottom: 2px solid #EDEDED;
+        display: block;
+        clear: both;
+        border-bottom: 2px solid #EDEDED;
     padding: 1em 0 2em;
 }
 article header h1 {
@@ -390,7 +393,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
     font-style: normal;
     margin: 0;
     padding: 15px 20px;
-    
+
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
